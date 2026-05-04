@@ -161,7 +161,7 @@ void printList(struct angka* head){
         printf("MERGED EMPTY");
     }
     else{
-        printf("MERGED ");
+        printf("MERGED");
         while (head != NULL){
             printf("%d", head->data);
             head = head->next;
